@@ -109,3 +109,11 @@ app.listen(PORT,function(){
 - `rs -a`で削除後を確認
 - gitも削除しておくので`rm -rf .git`をしておく
 - この準備でプロジェクトの雛形ができる
+
+
+## Heroku設定のおさらい
+- gitにてリポジトリを作成後
+- `heroku create`を実行
+- `git remote -v`でremoteの状態を見れる※ここでherokuと繋がっていれば問題なくプッシュできる
+- `git push heroku master`でherokuにプッシュ
+- `heroku open`でビルド
